@@ -1,0 +1,242 @@
+
+/* Title and Heading section */
+.header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.9;
+}
+.image{
+  position: relative;
+  max-height: 100vh;
+  opacity: 5;
+
+}
+
+.big-heading{
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  font-size: 12rem;
+  padding: 12% 30% 20%;
+  /* -webkit-text-stroke: 1px #fff; */
+  color: transparent;
+  background-repeat: no-repeat;
+  -webkit-background-clip:text;
+  background-image:  linear-gradient(#fff, #fff);
+  background-position: -880px 0px;
+  animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+  100%{
+    background-position: 0 0;
+  }
+
+}
+h2{
+  position: absolute;
+  text-align: center;
+  top:40px;
+  padding: 30% 32%;
+  margin: auto;
+  font-size: 4rem;
+  color: transparent;
+  background-repeat: no-repeat;
+  -webkit-background-clip:text;
+  background-image:  linear-gradient(#fff, #fff);
+  background-position: -880px 0px;
+  animation: backcolor 5s linear infinite alternate;
+}
+
+.navbar-brand{
+  font-weight: bolder;
+  padding-left: 4rem;
+  font-family: "Montserrat";
+}
+.navbar{
+  opacity: 1;
+  position: fixed;
+}
+.nav-item{
+  padding-right: 3rem;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+/* About us */
+#about{
+  padding-top: 1rem;
+}
+
+.aboutus{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+.container{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.shop-image{
+
+  height: 90vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 3rem;
+  position: relative;
+}
+p{
+  font-size: 1.5rem;
+  top: 3px;
+  margin: 40% 6% 20% 7%;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  padding-top: 10rem;
+  line-height: 1.2;
+  font-family: "Montserrat";
+}
+
+/* Menu */
+h3{
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+h4{
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Dancing Script";
+  font-size: 1rem;
+
+}
+.bagel-description{
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+.card-title{
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.6rem;
+}
+.card-text{
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Montserrat";
+}
+.row{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.bagle-image{
+  height: 40vh;
+  width: 40vh;
+  margin: 20px 40px;
+  padding-left: 34px;
+
+}
+.bagle-image:hover{
+  transform: scale(1.1, 1.1);
+}
+
+/* footer */
+#cta{
+  background-color: black;
+  margin-top: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.p-cta{
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+h6{
+  color: white;
+}
+.email-cta{
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+    padding-right: 29%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.cta-btn{
+  display: inline;
+  margin-left: 5rem;
+}
+h6{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.icon{
+  font-size:2rem;
+  padding-left: 6px;
+  color: white;
+
+}
+.copyright{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  padding-top: 2rem;
+
+}
+.input-cta{
+  margin-left: 3rem;
+  margin-right: 2rem;
+  display: inline;
+  background: transparent;
+  border: 0.5px solid white;
+  color: white;
+
+
+}
+.btn{
+  background-color: white;
+}
+
+
+
+/* #footer{
+  margin-top: 4rem;
+  background-color: black;
+  padding-top: 2rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+
+}
+.icon{
+  font-size: 2rem;
+}
+.footer-description{
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.copyright{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+ */
